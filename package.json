@@ -1,0 +1,20 @@
+{
+  "name": "infinite-gif",
+  "version": "1.0.0",
+  "description": "Infinite GIF - The Never-Ending Image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sunanda <sunandasamanta60@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunanda35/Infinite-GIF.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "express": "^5.2.1",
+    "gifencoder": "^2.0.1"
+  }
+}
