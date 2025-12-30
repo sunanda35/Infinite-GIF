@@ -7,6 +7,20 @@ A lightweight Node.js server that generates a real-time GIF image. Perfect for e
 ## 🚀 How it works
 Standard "Infinite GIFs" cause browsers to show a permanent loading spinner. This project uses the `HTTP Refresh Header Hack` to serve a single-frame GIF that tells the browser to re-request the image every second, ensuring smooth updates without the "loading" UI.
 
+## 📋 System Requirements (Prerequisites)
+Because this project uses `node-canvas`, you must have the required build tools installed on your OS.
+
+- **For Ubuntu / Debian:**
+```bash
+sudo apt-get update
+sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+```
+
+- **For macOS:**
+```bash
+brew install pkg-config cairo pango jpeg giflib librsvg
+```
+
 ## 🛠️ Installation
 
 1. **Clone the repo:**
